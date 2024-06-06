@@ -136,7 +136,7 @@ def characters(pwm, alphabet=['A', 'C', 'G', 'T'], force=False):
 
 
 def one_hot_encode(sequence, alphabet=['A', 'C', 'G', 'T'], dtype='int8', 
-	ignore=['N'], desc=None, verbose=False, **kwargs):
+	ignore=['N', 'Y', 'R', 'W', 'B', 'M', 'K', 'S', 'D', 'H', 'V'], desc=None, verbose=False, **kwargs):
 	"""Converts a string or list of characters into a one-hot encoding.
 
 	This function will take in either a string or a list and convert it into a
